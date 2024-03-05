@@ -1,3 +1,7 @@
+
+.aptos
+*.yaml
+
 # Logs
 logs
 *.log
