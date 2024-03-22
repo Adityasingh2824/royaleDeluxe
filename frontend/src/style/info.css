@@ -1,0 +1,52 @@
+.info-box {
+  width: 100%;
+  height: 45px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #252a33;
+  background: linear-gradient(45deg, #2c261a,#2c0416);
+  border-width: 1px;
+    border-style: solid;
+    border-color: #5E2A41;
+    border-radius: 25px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.info-emoji {
+  font-size: 20px;
+}
+
+.info-data {
+  width: 100%;
+  text-align: center;
+}
+
+.gamerule{
+  
+  color: #F2D59F;
+  font-size: 15px;
+  font-weight: normal;
+    
+}
+
+.btninfo {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(45deg, #5E2A41, #5E2A41);
+  padding: 0px;
+  min-width: 25px;
+  max-width: 10pc;
+  font-size: large;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 10px;
+  border-radius: 10px;
+  left: 8px;
+  color: #ffffff;
+  top: 25;
+  z-index: 100;
+}

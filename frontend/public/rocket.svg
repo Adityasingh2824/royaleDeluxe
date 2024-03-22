@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   className="rocketbody"
+   viewBox="-500 -500 1500 1500"
+   version="1.1"
+   id="svg255"
+   sodipodi:docname="rocket.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata261">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs259" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2625"
+     inkscape:window-height="1187"
+     id="namedview257"
+     showgrid="false"
+     inkscape:zoom="0.65053824"
+     inkscape:cx="353.1689"
+     inkscape:cy="895.53559"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg255" />
+  <path
+     d="M359.828 328.707L246.761 378.84l37.333 56.533 52.267-48c-5.333-21.333 3.2-44.8 23.467-58.666z"
+     fill="#ced6e0"
+     id="path221" />
+  <path
+     d="M305.428 512.173l65.067-65.067c23.467-23.467 36.267-55.467 36.267-88.533-33.067 0-65.067 12.8-88.533 36.267l-65.067 65.067 52.266 52.266z"
+     fill="#f3705a"
+     id="path223" />
+  <path
+     d="M120.894 176.173l-42.667 53.333 56.533 36.267 50.133-113.067c-15.999 21.334-41.599 29.867-63.999 23.467z"
+     fill="#ced6e0"
+     id="path225" />
+  <path
+     d="M.361 207.107l65.067-65.067c23.467-23.467 55.467-36.267 88.533-36.267 0 33.067-12.8 65.067-36.267 88.533l-65.067 65.067L.361 207.107z"
+     fill="#f3705a"
+     id="path227" />
+  <g
+     fill="#ffd15c"
+     id="g231">
+    <path
+       d="M322.816 495.137l-17.347 17.347-52.042-52.041 17.348-17.348zM69.392 241.284L52.045 258.63.003 206.59l17.347-17.347z"
+       id="path229" />
+  </g>
+  <path
+     d="M208.361 415.107C551.828 284.973 510.228-3.027 511.294 1.24c4.267 1.067-283.733-39.467-413.867 302.933l110.934 110.934z"
+     fill="#f3f3f3"
+     id="path233" />
+  <g
+     fill="#415a6b"
+     id="g239">
+    <path
+       d="m 108.094,279.64 c -3.2,8.533 -31.733333,64 -34.933333,72.533 93.909073,18.43012 65.511553,57.24467 98.267333,85.867 8.533,-3.2 55.067,-30.4 62.533,-33.6 z"
+       id="path235"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <circle
+       cx="302.228"
+       cy="210.307"
+       r="73.6"
+       id="circle237" />
+  </g>
+  <circle
+     cx="302.228"
+     cy="210.307"
+     r="55.467"
+     fill="#8ad7f8"
+     id="circle241" />
+  <g
+     fill="#55c0eb"
+     id="g245">
+    <path
+       d="M340.628 249.773V170.84c-6.4-6.4-13.867-9.6-21.333-12.8v104.533c8.533-3.2 14.933-7.466 21.333-12.8zM294.761 155.907v108.8a25.992 25.992 0 0 0 12.8 0V154.84c-4.267 0-8.533 0-12.8 1.067z"
+       id="path243" />
+  </g>
+  <path
+     d="M332.094 33.24l146.133 146.133c4.267-8.533 7.467-17.067 10.667-24.533L356.628 23.64c-7.467 3.2-16 6.4-24.534 9.6z"
+     fill="#ffd15c"
+     id="path247" />
+  <path
+     d="M488.894 154.84c32-86.4 22.4-155.733 22.4-153.6 2.133 0-67.2-8.533-153.6 22.4l131.2 131.2z"
+     fill="#f3705a"
+     id="path249" />
+  <path
+     className="rocketengine"
+     d="m 121.05192,452.56562 c -22.399995,22.4 -137.599995,56.533 -137.599995,56.533 0,0 34.133,-115.2 56.533,-137.6 22.4,-22.4 58.667,-22.4 79.999995,0 22.4,22.4 22.4,58.667 1.067,81.067 z"
+     id="path251"
+     inkscape:connector-curvature="0"
+     style="fill:#ffd15c" />
+  <path
+     className="rocketengine"
+     d="m 117.97755,409.20949 c -12.8,12.8 -80.000003,33.067 -80.000003,33.067 0,0 20.267,-67.2 33.067,-80 12.8,-12.8 34.133003,-12.8 46.933003,0 12.8,12.799 12.8,34.133 0,46.933 z"
+     id="path253"
+     inkscape:connector-curvature="0"
+     style="fill:#f7b64c" />
+</svg>

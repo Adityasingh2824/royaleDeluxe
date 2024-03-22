@@ -1,0 +1,270 @@
+.start-section .start-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  background: #5E2A41;
+  min-width: 25px;
+  
+ }
+
+ .start-button-browser {
+  width: 100%;
+  padding: 10px;
+    border-width: 5px;
+  font-size: 45px;
+  color:WHITE;
+  font-weight: bolder;
+  background: #5E2A41;
+  min-width: 25px;
+  min-height: 85px;
+  border-radius: 25px;
+
+  border-color: #5E2A41;
+  
+ }
+
+
+ .start-button-mobile {
+   width: 100%;
+   padding: 5px;
+   border-width: 5px;
+   font-size: 25px;
+   color: WHITE;
+   font-weight: bolder;
+   background: #5E2A41;
+   min-width: 25px;
+   min-height: 25px;
+   border-radius: 25px;
+
+   border-color: #5E2A41;
+
+ }
+
+.btn:hover {
+  background-color: #5E2A41;
+  transition: 0.7s;
+}
+
+
+.card-box.spin {
+  flex-wrap: wrap;
+  min-height: fit-content;
+}
+
+.card-box.spin .spin-title {
+  color: #F2D59F;
+  font-size: 20px;
+  font-weight: bolder;
+    text-align: center;
+    color: rgb(198, 198, 223);
+  
+}
+
+
+
+
+.card-box.spin .spin-menu {
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+  height: auto;
+  background-color: #5E2A41;
+}
+
+.card-box.spin .spin-menu-browser {
+  width: 100%;
+  display: flex;
+  padding-bottom: 5px;
+  height: auto;
+  background-color: #5E2A41;
+  border-radius: 25px;
+}
+
+.card-box.spin .spin-input {
+  width: calc(100% - 58px);
+  font-size: 25px;
+  border-radius: 25px;
+  
+  text-align: center;
+  padding: 0 5px;
+  margin: 0 5px;
+  -moz-appearance: textfield;
+  height: auto;
+  background-color: #5E2A41;
+}
+
+.card-box.spin .spin-input-browser {
+  width: calc(100% - 50px);
+  font-size: 35px;
+    min-width: 79px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 5px;
+  margin: 0 5px;
+  -moz-appearance: textfield;
+  height: auto;
+  background-color: #5E2A41;
+  
+border-radius: 25px;
+
+}
+
+.maxbutton {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  border-width: 1px;
+  border-radius: 25px;
+  background: transparent;
+  color:#F2D59F;
+  
+  font-size: 12px;
+  right: 30px;
+  
+  
+}
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.spin-input::-webkit-outer-spin-button,
+.spin-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ 
+}
+.spin-input{
+  border-radius: 25px;
+  
+  min-width: 28px;
+  
+  }
+
+.card-box.spin .spin-menu .option {
+  border-radius: 25px;
+  text-align: center;
+  
+  background: transparent;
+  font-size: 29px;
+  cursor: pointer;
+  
+  width: 30%;
+}
+
+
+.card-box.spin .spin-menu-browser .option {
+  border-radius: 25px;
+  text-align: center;
+  border-width: 0px;  
+  background: transparent;
+  font-size: 55px;
+  cursor: pointer;
+  color: #F2D59F;
+  width: 53%;
+}
+
+
+.tooltip {
+  padding: 8px 16px;
+  border-radius: 3px;
+  font-size: 90%;
+  width: max-content;
+}
+
+.arrow {
+  width: 8px;
+  height:8px;
+}
+button.tooltip{
+  color: #F2D59F;
+
+}
+
+
+.targetclass {
+ font-size: 55px;
+ width: 150px;
+  font-weight: bolder;
+  color: #5E2A41;
+  text-align: center;
+  background-color: #F2D59F;
+ font-weight: bolder;
+ 
+ 
+ 
+  border-radius: 25px;
+ 
+  
+
+}
+
+.explaingame {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #F2D59F;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.explaingame-mob {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #F2D59F;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+@-webkit-keyframes borderBlink {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: white
+  }
+}
+
+@keyframes borderBlink {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: white
+  }
+}
+
+.borderBlink {
+  border: 3px solid white;
+  /* add 'border-color: transparent' if you wish no border to show initially */
+
+  -webkit-animation: borderBlink 2s step-end infinite;
+  animation: borderBlink 2s step-end infinite;
+}
+
+.borderBlink:hover {}
+
+
+.aptlogo{
+  position: relative;
+  
+  margin-top: 19px;
+  height: 45px;
+  width: 50%;
+  opacity: 0.5;
+  
+  
+  
+  
+}
