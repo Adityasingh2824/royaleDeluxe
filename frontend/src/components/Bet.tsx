@@ -153,25 +153,25 @@ const Bet = (props) => {
     <div className="start-section">
       <div className="row mb-3">
         <div className="col-12 col-md-12">
+          
           <div className="card-box spin">
                  <div className="explaingame">BET  
-                  
                  </div>
             <div className="spin-menu-browser">
               <div className="spin-minus option" onClick={pointsMinus}>
                 ▼
                    </div>
+
+                   <div className="midInputbrowser" >
                   <img  className="aptlogo" src="Aptos_mark_WHT.svg"/>                  
                    <input disabled
                      type="number"
-                     className="spin-input-browser"
+                     className="spininputbrowser"
                      onChange={(e: any) => setStakeValue(e.target.value)}
                      value={ (stakeValue/ 100000000).toFixed(4) } 
                    >
-                  
                   </input>
-
-
+                  </div>
               <button className="spin-plus option" onClick={pointsPlus}>
                 ▲
                    </button>
@@ -179,14 +179,12 @@ const Bet = (props) => {
                  </div>
                  
                </div>
-               
+          
         </div>
 
         <div className="col-12 col-md-12">
           <div className="card-box spin">
-                 <div className="spin-title-browser">
-                   
-                   </div>
+                 
                  <div className="explaingame">
                   
                    THAT YOU HIT

@@ -61,9 +61,6 @@
   
 }
 
-
-
-
 .card-box.spin .spin-menu {
   width: 100%;
   display: flex;
@@ -75,17 +72,16 @@
 .card-box.spin .spin-menu-browser {
   width: 100%;
   display: flex;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   height: auto;
   background-color: #5E2A41;
   border-radius: 25px;
 }
 
 .card-box.spin .spin-input {
-  width: calc(100% - 58px);
+  width: calc(100% - 0px);
   font-size: 25px;
   border-radius: 25px;
-  
   text-align: center;
   padding: 0 5px;
   margin: 0 5px;
@@ -94,21 +90,35 @@
   background-color: #5E2A41;
 }
 
-.card-box.spin .spin-input-browser {
-  width: calc(100% - 50px);
+.spininputbrowser {
+  position: absolue;
+  width: calc(100% );
   font-size: 35px;
-    min-width: 79px;
+  
   font-weight: bolder;
   text-align: center;
-  padding: 0 5px;
-  margin: 0 5px;
-  -moz-appearance: textfield;
-  height: auto;
-  background-color: #5E2A41;
   
-border-radius: 25px;
-
+  
+  background-color: #5E2A41;
+  border-radius: 25px;
 }
+
+
+.aptlogo{
+  
+  height: 30px;
+  width: 100%;
+  opacity: 0.5;
+  z-index:-200;
+ 
+}
+
+.midInputbrowser{
+  
+}
+
+
+
 
 .maxbutton {
   position: absolute;
@@ -126,34 +136,17 @@ border-radius: 25px;
 }
 
 
-
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-.spin-input::-webkit-outer-spin-button,
-.spin-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
- 
-}
 .spin-input{
   border-radius: 25px;
-  
   min-width: 28px;
-  
   }
 
 .card-box.spin .spin-menu .option {
   border-radius: 25px;
   text-align: center;
-  
   background: transparent;
   font-size: 29px;
   cursor: pointer;
-  
   width: 30%;
 }
 
@@ -188,20 +181,13 @@ button.tooltip{
 
 
 .targetclass {
- font-size: 55px;
- width: 150px;
+  font-size: 55px;
+  width: 150px;
   font-weight: bolder;
   color: #5E2A41;
   text-align: center;
   background-color: #F2D59F;
- font-weight: bolder;
- 
- 
- 
   border-radius: 25px;
- 
-  
-
 }
 
 .explaingame {
@@ -222,7 +208,6 @@ button.tooltip{
 
 
 @-webkit-keyframes borderBlink {
-
   from,
   to {
     border-color: transparent
@@ -234,7 +219,6 @@ button.tooltip{
 }
 
 @keyframes borderBlink {
-
   from,
   to {
     border-color: transparent
@@ -256,15 +240,3 @@ button.tooltip{
 .borderBlink:hover {}
 
 
-.aptlogo{
-  position: relative;
-  
-  margin-top: 19px;
-  height: 45px;
-  width: 50%;
-  opacity: 0.5;
-  
-  
-  
-  
-}
