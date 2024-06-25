@@ -1,6 +1,6 @@
 [package]
-name = "royaledeluxe1"
-version = "2.0.0"
+name = "royaledeluxe"
+version = "0.0.1"
 authors = []
 
 [addresses]
@@ -10,7 +10,7 @@ royaledeluxe1="0xc4d40ddeab3a45bdd2621d980da2b56f9ac41ddf6f68058e2b800641e945c63
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
-rev = "devnet"
+rev = "testnet"
 subdir = "aptos-move/framework/aptos-framework"
 
 [dev-dependencies]

@@ -180,7 +180,7 @@ input {
   font-size: large;
   font-weight: bold;
   margin: 10px;
-  color: #ffffff;
+  color: red;
   background: linear-gradient(45deg, #5E2A41, #5E2A41);
   border-color: #5E2A41;
 }
@@ -391,3 +391,21 @@ input {
   
 }
 
+.playerboard {
+  position: absolute;
+  z-index: -100;
+  align-items: center;
+  font-size: 15px;
+  
+  padding-right: 15px;
+  padding-left: 15px;
+  bottom: 0px;
+  width: 100%;
+  
+  font-weight: bolder;
+  color: #F2D59F;
+  
+  background: linear-gradient(45deg, #2c261a, #2c0416);
+  border-radius: 25px;
+  border-color: #5E2A41;
+} 

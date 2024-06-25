@@ -10,12 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@apollo/client": "^3.9.9",
     "@aptos-labs/wallet-adapter-mui-design": "^2.1.0",
     "@aptos-labs/wallet-adapter-react": "^2.1.8",
     "@reduxjs/toolkit": "^2.2.1",
     "animejs": "^3.2.2",
     "aptos": "^1.21.0",
     "bootstrap": "^5.3.3",
+    "graphql": "^16.8.1",
+    "graphql-ws": "^5.15.0",
     "petra-plugin-wallet-adapter": "^0.4.4",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",

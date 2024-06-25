@@ -12,6 +12,7 @@ import Info from "./components/Info";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Tooltip from '@mui/material/Tooltip';
+import PlayerBoard from "./components/PlayerBoard/PlayerBoard";
 
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
 import { WalletConnector } from "@aptos-labs/wallet-adapter-mui-design";
@@ -24,6 +25,9 @@ import {
 import { BrowserView, MobileView } from 'react-device-detect';
 import { useSelector, useDispatch } from "react-redux";
 import { RD,aptosnet } from "./components/config";
+
+
+
 
 const ConnectedFunctionalities = (props) => {
     const dispatch = useDispatch();
@@ -520,9 +524,11 @@ function App() {
 
   return (
     <div className="App">
+      
       <div className="container-fluid">
+    
         <div className="mytext">
-          RANDOMNET & BrowserView ONLY
+          BrowserView ONLY
           
           </div>
         <div className="dummyView">
@@ -599,10 +605,16 @@ function App() {
           </div>
           
         </div>
+
         
       </div>
-      
+      <div className="playerboard">
+        <PlayerBoard /> 
+        </div>
+
+  
     </div>
+
     
   )
 }

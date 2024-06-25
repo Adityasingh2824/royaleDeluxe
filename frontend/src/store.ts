@@ -1,5 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+export interface CustomerEvent {
+  userName: string;
+  winnings: number;
+  randresult: number;
+}
+
 export interface CustomerState {
   userName: string;
   balance: number;
@@ -9,6 +15,8 @@ export interface CustomerState {
   animationDuration: number;
   isconnected: boolean;
   isMobile: boolean;
+  lastEventVal: CustomerEvent | null;
+  arrayLastEventVal: CustomerEvent[];
 
 };
 
@@ -20,7 +28,10 @@ const initialState: CustomerState = {
   animationVisible: false,
   animationDuration: 4.2,
   isconnected: false,
-  isMobile:false
+  isMobile: false,
+  lastEventVal: null,
+  arrayLastEventVal: [],
+  
 };
 
 export const clientReduxStore = createSlice({
@@ -38,7 +49,16 @@ export const clientReduxStore = createSlice({
 
     newResultVal: (state, action) => {
       state.lastResultVal = action.payload;
-      
+   
+    },
+
+    newEventVal: (state, action) => {
+      state.lastEventVal = action.payload;
+    
+    },
+    
+    newHistoEventVal: (state, action) => { 
+      state.arrayLastEventVal = [action.payload, ...state.arrayLastEventVal];
     },
 
     setAnimationVal: (state, action) => {
@@ -61,9 +81,12 @@ export const clientReduxStore = createSlice({
 });
 
 export const {
+  CustomerEvent,
   setUserName,
   newRandomVal,
   newResultVal,
+  newEventVal,
+  newHistoEventVal,
   setAnimationVal,
   updateBalanceVal,
   setConnectedVal,

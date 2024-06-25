@@ -280,7 +280,7 @@ public fun  send_reset_all(
 
 
 
-
+#[randomness]
       entry fun royale_crash(
         player: &signer,
         stake: u64, 
@@ -294,6 +294,8 @@ public fun  send_reset_all(
         // todo a assert test enough funds both sides :)
         assert!(enough_funds_account(player, &accountKey,stake), ERR_CUSTOMER_NOT_ENOUGH_FUNDS);
         crash(player, accountKey,stake, target,side)
+//   let myroll= fixed_point64_with_sign::create_from_rational( fixed_point64_with_sign::get_raw_value(new_roll) , 1000000000000000000000, fixed_point64_with_sign::is_positive(new_roll));
+
 
     }
 
@@ -328,7 +330,6 @@ let myCasinoAccountKey = MarketAccountKey {
             userAddress: @royaledeluxe1,
 };
 let price= randomness::u64_range(0,10000000); 
-
 
 let outcome :u64= 0;
 if (price>target){
